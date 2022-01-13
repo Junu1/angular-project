@@ -1,0 +1,21 @@
+<div>
+    <!-- style binding -->
+    <h1 [style.color]="h1Style.color">This is heading1</h1>
+
+    <span [style.font-weight]="spanStyle.fontWeight">This is span tag</span>
+
+    <table border="1px">
+        <thead>
+            <th>Title</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td [style.color]="'red'">title1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- class binding -->
+    <h1 [class]="'head1'">This is heading1</h1>
+    <h1 [class]="h1Style.color === 'red' ? 'red' : 'default'">This is heading1</h1>
+</div>

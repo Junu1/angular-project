@@ -1,0 +1,11 @@
+.head1{
+    color: red;
+}
+
+h1.red{
+    color: red;
+}
+
+h1.default{
+    color: rosybrown;
+}
